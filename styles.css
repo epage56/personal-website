@@ -254,17 +254,18 @@ body {
 }
 
 .headshot {
-    width: 35vw; /* Adjust as needed */
+    width: 30vw;
     min-width: 20rem;
+    max-width: 30rem;
     height: auto;
-    border-radius: 0.5rem; /* Slightly rounded corners */
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25); /* Shadow around the image */
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.25);
 }
 
 .cardfortransition {
     width: 100vw;
     height: 100vh;
-    background-color: var(--offwhite); /* or any other color */
+    background-color: var(--offwhite);
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
